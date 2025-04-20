@@ -1,0 +1,42 @@
+
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px; /* Add padding around the container */
+}
+
+.text-content {
+    flex: 1;
+    text-align: left;
+    font-family: Arial, sans-serif; /* Use a clean, modern font */
+    line-height: 1.6; /* Improve readability with proper line spacing */
+    color: #333; /* Use a dark gray color for better contrast */
+}
+
+.text-content h1 {
+    font-size: 2.5em; /* Make the main title stand out */
+    margin-bottom: 10px; /* Add spacing below the title */
+    color: #2c3e50; /* Use a distinct color for the title */
+}
+
+.text-content h2 {
+    font-size: 1.8em; /* Slightly smaller for the subtitle */
+    margin-bottom: 10px;
+    color: #34495e;
+}
+
+.text-content h3 {
+    font-size: 1.2em; /* Smaller size for paragraphs */
+    margin-bottom: 15px; /* Add spacing between paragraphs */
+    color: #555;
+}
+
+.img1 {
+    width: 35%;
+    height: auto;
+    margin-left: 20px; /* Adjust spacing between text and image */
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for aesthetics */
+}
