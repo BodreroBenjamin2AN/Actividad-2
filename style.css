@@ -1,40 +1,33 @@
-
-
-.content-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 20px; /* Add padding around the container */
-}
-
-.text-content {
-    flex: 1;
-    text-align: left;
-    font-family: Arial, sans-serif; /* Use a clean, modern font */
-    line-height: 1.6; /* Improve readability with proper line spacing */
-    color: #333; /* Use a dark gray color for better contrast */
+.body-code{
+    background-color: antiquewhite;
 }
 
 .text-content h1 {
-    font-size: 2.5em; /* Make the main title stand out */
-    margin-bottom: 10px; /* Add spacing below the title */
-    color: #2c3e50; /* Use a distinct color for the title */
+    font-size: 2.5em; 
+    margin-bottom: 10px; 
+    color: #2c3e50; 
+}
+
+.text-content{
+    margin-left: 20px;
 }
 
 .text-content h2 {
-    font-size: 1.8em; /* Slightly smaller for the subtitle */
+    font-size: 1.8em; 
     margin-bottom: 10px;
     color: #34495e;
 }
 
 .text-content h3 {
-    font-size: 1.2em; /* Smaller size for paragraphs */
-    margin-bottom: 15px; /* Add spacing between paragraphs */
+    font-size: 1.2em; 
+    margin-bottom: 25px; 
     color: #555;
+    margin-left: 20px;
+    margin-right: 25px;
 }
 
 .img1 {
-    width: 35%;
+    width: 30%;
     height: auto;
     margin-left: 20px; /* Adjust spacing between text and image */
     border-radius: 8px; /* Add rounded corners to the image */
